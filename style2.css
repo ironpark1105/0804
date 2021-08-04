@@ -1,0 +1,33 @@
+.container{
+ width: 1200px;
+ padding-top: 20px;
+}
+
+
+[class*="col-"] div{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.textcenter{
+    text-align: center;
+}
+
+header{
+    
+    width: 100%;
+    height: 90px;
+    background-color: #f1edd6;
+}
+h1{
+    margin: 0;
+}
+
+.col4 a{
+    padding-left: 0px;
+    padding-right: 25px;
+}
+.col3 a{
+    font-size: 30px;
+}

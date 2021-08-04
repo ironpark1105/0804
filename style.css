@@ -1,0 +1,55 @@
+*{box-sizing:border-box}
+
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+
+@media print{
+.red, .blue{
+    display: none;
+}
+.green{
+    background-color: #fff;
+    color: #000;
+}
+}
+
+@media screen and (min-width:700px){
+body{
+    background-color: brown;
+}
+}
+@media screen and (min-width: 1000px) {
+    body{
+        background-color: mediumaquamarine;
+    }
+@media screen and (min-width:1200px){
+        body{
+            background-color: mediumspringgreen;
+        }
+        }
+.container {
+    width: 1200px;
+    margin: auto;
+    height: 1200px;
+    max-width: 100%;
+    }
+.container div{
+        width: 33.333333333%;
+        color: #fff;
+        float: left;
+        padding: 30px;
+    }
+
+@media screen and (max-width:500px) {
+    .container div{
+        width: 100%;
+    }    
+}

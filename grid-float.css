@@ -1,0 +1,107 @@
+*{box-sizing: border-box;}
+
+
+.container{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.col-1{
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 8.333333%;
+}
+
+.col-2{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 16.666666667%;
+}
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 25%;
+}
+
+.col-4{   
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 33.33333%;
+}
+
+.col-5{   
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 41.666666%;
+}
+
+
+.col-6{   
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 50%;
+}
+
+.col-7{   
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 58.33333%;
+}
+
+.col-8{   
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 66.66666%;
+}
+
+.col-9{   
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 75%;
+}
+
+.col-10{   
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 83.33333%;
+}
+
+.col-11{   
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 91.666667%;
+}
+
+.col-12{   
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 100%;
+}
